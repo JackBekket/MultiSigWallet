@@ -288,7 +288,7 @@ contract MultiSigWallet {
     /// @return Returns transaction ID.
     function addTransaction(address destination, uint value, bytes data)
         internal
-        notNull(destination)
+      //  notNull(destination)
         returns (uint transactionId)
     {
         transactionId = transactionCount;
